@@ -1,3 +1,3 @@
-module github.com/zeromsi/go-starter
+module go-playground
 
 go 1.13
