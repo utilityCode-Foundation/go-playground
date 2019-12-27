@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-
 	paymentMethod,err:=  factory.GetPaymentMethod(factory.CASH)
 	if err!=nil{
 		fmt.Println(err)
