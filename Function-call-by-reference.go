@@ -8,12 +8,12 @@ func main() {
 	a = 10
 	b = 12
 
-	swap(&a, &b)
+	swapValue(&a, &b)
 
 	fmt.Println("a: ", a, " ,b: ", b)
 }
 
-func swap(a, b *uint8) {
+func swapValue(a, b *uint8) {
 	x := *a
 	*a = *b
 	*b = x
