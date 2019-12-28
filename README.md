@@ -36,10 +36,17 @@
 
 |Id | Topic                                                                                  | Docs                                                         
 |---|----------------------------------------------------------------------------------------|--------------------------------------------------|
-| 00| [Data structure](https://github.com/utilityCode-Foundation/go-playground/tree/master/data-structure/README.md)       | [User Guide]()     |
-| 01| [Algorithm](https://github.com/utilityCode-Foundation/go-playground/tree/master/algorithm/README.md)       | [User Guide]()     |
+| 00| [Data structure](https://github.com/utilityCode-Foundation/go-playground/tree/master/data-structure)       | [User Guide]()     |
+| 01| [Algorithm](https://github.com/utilityCode-Foundation/go-playground/tree/master/algorithm)       | [User Guide]()     |
 | 02| [Design pattern](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern)       | [User Guide]()     |
 
+# Table of Content (Work with data storages)
+
+|Id | Topic                                                                                  | Docs                                                         
+|---|----------------------------------------------------------------------------------------|--------------------------------------------------|
+| 00| [Mongo]()       | [User Guide]()     |
+| 01| [MySql]()       | [User Guide]()     |
+| 02| [Neo4j]()       | [User Guide]()     |
 
 ## Want to contribute ?
 
