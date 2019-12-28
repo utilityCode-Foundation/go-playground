@@ -9,6 +9,6 @@ These authors are collectively known as ``` Gang of Four (GOF) ```.
 
 |Id | Topic                                                                                  | Docs                                                         
 |---|----------------------------------------------------------------------------------------|--------------------------------------------------|
-| 01| [Creational](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/README.md)       | [User Guide]()            |
+| 01| [Creational](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational)       | [User Guide]()            |
 | 02| [Structural]()       | [User Guide]()            |
 | 03| [Behavioral]()       | [User Guide]()            |

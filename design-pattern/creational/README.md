@@ -7,9 +7,9 @@
 
 |Id | Topic                                                                                  | Docs                                                         
 |---|----------------------------------------------------------------------------------------|--------------------------------------------------|
-| 01| [Builder](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/builder-pattern/README.md)       | [User Guide]()            |
-| 02| [Factory](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/factory-pattern/README.md)       | [User Guide]()            |
-| 03| [Abstract factory](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/abstract-factory-pattern/README.md)     | [User Guide]()            |
-| 04| [Singleton](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/singleton-pattern/README.md)     | [User Guide]()            |
-| 05| [Object Pool](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/object-Pool-pattern/README.md)     | [User Guide]()            |
-| 06| [Prototype](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/prototype-pattern/README.md)     | [User Guide]()            |
+| 01| [Builder](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/builder-pattern)       | [User Guide]()            |
+| 02| [Factory](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/factory-pattern)       | [User Guide]()            |
+| 03| [Abstract factory](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/abstract-factory-pattern)     | [User Guide]()            |
+| 04| [Singleton](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/singleton-pattern)     | [User Guide]()            |
+| 05| [Object Pool](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/object-Pool-pattern)     | [User Guide]()            |
+| 06| [Prototype](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational/prototype-pattern)     | [User Guide]()            |
