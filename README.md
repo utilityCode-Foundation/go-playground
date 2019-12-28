@@ -36,7 +36,10 @@
 
 |Id | Topic                                                                                  | Docs                                                         
 |---|----------------------------------------------------------------------------------------|--------------------------------------------------|
-| 01| [Design pattern](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/README.md)       | [User Guide]()     |
+| 00| [Data structure](https://github.com/utilityCode-Foundation/go-playground/tree/master/data-structure/README.md)       | [User Guide]()     |
+| 01| [Algorithm](https://github.com/utilityCode-Foundation/go-playground/tree/master/algorithm/README.md)       | [User Guide]()     |
+| 02| [Design pattern](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/README.md)       | [User Guide]()     |
+
 
 ## Want to contribute ?
 
