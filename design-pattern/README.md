@@ -5,6 +5,7 @@ These authors are collectively known as ``` Gang of Four (GOF) ```.
 
 ### Design Patterns Category
 > There are 23 design patterns which can be classified in three categories: 
+> Additionally there's some design pattern known as concurrency pattern
 
 
 |Id | Topic                                                                                  | Docs                                                         
@@ -12,3 +13,4 @@ These authors are collectively known as ``` Gang of Four (GOF) ```.
 | 01| [Creational](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern/creational)       | [User Guide]()            |
 | 02| [Structural]()       | [User Guide]()            |
 | 03| [Behavioral]()       | [User Guide]()            |
+| 04| [Concurrency]()       | [User Guide]()            |
