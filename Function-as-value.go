@@ -5,11 +5,11 @@ import (
 )
 
 func main() {
-	sum := getSum(10, 20)
+	sum := add(10, 20)
 	fmt.Println(sum)
 
 }
 
-func getSum(a, b int) int {
+func add(a, b int) int {
 	return (a + b)
 }
