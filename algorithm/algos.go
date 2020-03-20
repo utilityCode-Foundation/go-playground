@@ -15,7 +15,6 @@ func binaySearch(nums[]int, left int, right int, target int) int{
 	mid:=(left+right)/2
 	if(nums[mid]<target){
 		left=mid+1
-
 		return binaySearch(nums,left,right,target)
 	}else if(nums[mid]>target){
 		right=mid-1
