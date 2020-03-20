@@ -14,21 +14,21 @@ Divide and conquer basically does three jobs, first divides the problem into sma
  
  Code Sample
  ```
-func binaySearch(nums[]int, left int, right int, target int,index int) int{
-    if(left>right){
-        return index
-    }
-    mid:=(left+right)/2
-    if(nums[mid]<target){
-        left=mid+1
-        index=left
-        return binaySearch(nums,left,right,target,index)
-    }else if(nums[mid]>target){
-        right=mid-1
-         return binaySearch(nums,left,right,target,index)
-    }else{
-        return mid
-    }
+func binaySearch(nums[]int, left int, right int, target int) int{
+	if(left>right){
+		return -1
+	}
+	mid:=(left+right)/2
+	if(nums[mid]<target){
+		left=mid+1
+
+		return binaySearch(nums,left,right,target)
+	}else if(nums[mid]>target){
+		right=mid-1
+		return binaySearch(nums,left,right,target)
+	}else{
+		return mid
+	}
 }
 ```
  
