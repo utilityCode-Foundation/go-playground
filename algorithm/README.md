@@ -1,4 +1,4 @@
-#Algorithm
+# Algorithm
 
 Before diving to algorithm, we need to learn about problem solving approaches or strategies.
 Some of the well known approaches are following,
