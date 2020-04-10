@@ -12,6 +12,8 @@ Divide and conquer basically does three jobs, first divides the problem into sma
     
  The pre-requisites of binary search is, the array needs to be sorted.
  
+ Time complexity:  ``` O(log n) ```
+ 
  Code Sample
  ```
 func binaySearch(nums[]int, left int, right int, target int) int{
@@ -35,6 +37,13 @@ func binaySearch(nums[]int, left int, right int, target int) int{
 
 - Merge Sort
 - Quick Sort
+
+Time complexity: 
+```
+O(n log n) in avg. case
+O(n2) int the worst case.
+```
+Supports in-place.
 
 Code Sample
 
