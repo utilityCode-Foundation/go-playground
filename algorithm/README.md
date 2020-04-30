@@ -220,6 +220,17 @@ func findCss(nums [] int, start int, end int,mid int) int{
 
 ```
 - Majority Element
+
+Code sample,
+```xml
+func majorityElement(nums []int) int {
+    sort.Ints(nums)
+    return nums[len(nums)/2]
+    
+}
+
+```
+
 - Kth Largest Element in an Array
   
   Code sample
