@@ -36,9 +36,11 @@
 
 |Id | Topic                                                                                  | Docs                                                         
 |---|----------------------------------------------------------------------------------------|--------------------------------------------------|
-| 00| [Data structure](https://github.com/utilityCode-Foundation/go-playground/tree/master/data-structure)       | [User Guide]()     |
-| 01| [Algorithm](https://github.com/utilityCode-Foundation/go-playground/tree/master/algorithm)       | [User Guide]()     |
-| 02| [Design pattern](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern)       | [User Guide]()     |
+| 00| [Closures](https://github.com/utilityCode-Foundation/go-playground/tree/master/closures)       | [User Guide]()     |
+| 00| [Concurrency](https://github.com/utilityCode-Foundation/go-playground/tree/master/concurrency)       | [User Guide]()     |
+| 01| [Data structure](https://github.com/utilityCode-Foundation/go-playground/tree/master/data-structure)       | [User Guide]()     |
+| 02| [Algorithm](https://github.com/utilityCode-Foundation/go-playground/tree/master/algorithm)       | [User Guide]()     |
+| 03| [Design pattern](https://github.com/utilityCode-Foundation/go-playground/tree/master/design-pattern)       | [User Guide]()     |
 
 # Table of Content (Work with data storages)
 
