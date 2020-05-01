@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main(){
 
@@ -9,7 +12,11 @@ func main(){
 	fmt.Println(clouser1())
 	fmt.Println(clouser1())
 
+	// function as param
+	fmt.Println(myFunc(testFunc,123))
+
 }
+
 
 func closure_example() func() int{
 	var i=0
@@ -17,4 +24,19 @@ func closure_example() func() int{
 		i++;
 		return i
 	}
+}
+
+// function as param
+type convert func(int) string
+
+func testFunc(val int) string{
+	return "The value is:"+ strconv.Itoa(val)
+}
+
+func myFunc(fn convert, val int) string{
+	return fn(val)
+}
+
+func temp2() {
+
 }
