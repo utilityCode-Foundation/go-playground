@@ -5,7 +5,7 @@ Some of the well known approaches are following,
 
 ## Divide and conquer
 
-Divide and conquer basically does three jobs, first divides the problem into smallest units recursively, then solves those units and last of all, combines those solved units.
+Divide and conquer basically does three jobs, first divides the problem into sub-problems recursively, then solves those sub-problems and last of all, combines those solved units.
 
 ### Some Algorithms
 - Binary Search
@@ -276,8 +276,16 @@ func sort(arr []int, start, end int) {
 - Search Insert Position
 - Two Sum II - Input array is sorted
 
-
-## Greedy approach
 ## Dynamic programming
+
+Dynamic Programming is a technique for solving problems with overlapping subproblems. Each sub-problem is solved only once and the result of each sub-problem is 
+stored in a table ( generally implemented as an array or a hash table) for future references. These sub-solutions may be used to obtain the original solution and
+the technique of storing the sub-problem solutions is known as ``` memoization ```.
+
+``` DP = recursion + re-use```
+
+
+- 
+## Greedy approach
 ## Backtracking
 ## Branch and bound
