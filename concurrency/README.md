@@ -1,10 +1,11 @@
 # Parallelism vs Concurrency
 
-Parallelism means running two operations at the same time. For example, your program got two threads to run and your machine
+Parallelism means running multiple operations at the same time. For example, your program got two threads to run and your machine
 has two core. So you can run those threads in parallel. 
 
-A Parallel programming doesn't mean to be concurrent. Concurrency means running chunks of a program as individual
-executing tasks and producing right result. 
+A Parallel program doesn't mean to be concurrent. A program that needs to be run sequentially is hard to make parallelize.
+Concurrency is all about breaking the code into sub program that can potentially run at the same time and at the end produce same 
+result as if it would run as single unit. So, we cannot parallelise a concurrent program.  
 
 ## Synchronous program example
 
@@ -46,5 +47,5 @@ func printStr(str string) {
 
 ```
 
-
+In this concurrent program, there's 2 go routine, 1 main and another one that is declared. 
 
