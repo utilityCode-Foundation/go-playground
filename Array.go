@@ -3,12 +3,28 @@ package main
 import "fmt"
 
 func main() {
-	var nums [10]int
-
+	// Approach 1: inserting with index number
+	// Only applicable for fixed sized array
+	var fixedNums [10]int
 	for i := 0; i < 10; i++ {
-		nums[i] = i + 1
+		fixedNums[i] = i + 1
 	}
-	PrintValue(nums[:])
+
+	// For fixed sized array,
+	// we must pass like below
+	fmt.Println("============= Fixed size array =============")
+	PrintValue(fixedNums[:])
+
+	// Approach 2: With append(...)
+	var nums []int
+	for i := 0; i < 10; i++ {
+		nums = append(nums, i+1)
+	}
+
+	// For dynamic sized array,
+	// we can also pass the array like below
+	fmt.Println("============= Dynamic size array =============")
+	PrintValue(nums)
 
 }
 func PrintValue(arr []int) {
